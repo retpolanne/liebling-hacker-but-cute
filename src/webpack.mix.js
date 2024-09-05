@@ -33,4 +33,6 @@ mix
     ]
   })
   .copyDirectory('sass/fonts/source-sans-pro/', '../assets/fonts/source-sans-pro/')
+  .copyDirectory('sass/fonts/Programma/', '../assets/fonts/Programma/')
+  .copyDirectory('sass/fonts/departure-mono/', '../assets/fonts/departure-mono/')
   .copy('sass/fonts/icomoon/*.*', '../assets/fonts/icomoon/');

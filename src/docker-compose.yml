@@ -6,7 +6,7 @@ services:
     container_name: ghost
     volumes:
       - ./..:/var/lib/ghost/content/themes/liebling:Z
-      - ./ghost.db:/var/lib/ghost/content/data/ghost.db:Z
+      - ./ghost.db:/var/lib/ghost/content/data/ghost.db
     environment:
       NODE_ENV: development
       database__client: sqlite3
